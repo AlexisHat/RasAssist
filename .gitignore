@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Trainings-Daten & generierte Dateien
+my_samples/
+openwakeword/audio_data/
+test_*.wav
+
+
+# IDEs & Tools
+.idea/
+.claude/
+.vscode/
+
+# macOS
+.DS_Store
+**/.DS_Store

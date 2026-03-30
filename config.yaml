@@ -1,0 +1,18 @@
+audio:
+  rate: 16000
+  channels: 1
+
+wake_word:
+  model_path: models/hey_razz_py.onnx
+  threshold: 0.20
+
+stt:
+  model: small          # tiny | base | small | medium | large
+  threshold: 0.02       # RMS-Amplitude: Alles darunter gilt als Stille
+  silence_duration: 1.5 # Sekunden Stille bevor Transkription startet
+
+tts:
+  voice: thorsten_medium  # Siehe rasassist/tts.py → VOICE_PATHS
+
+llm:
+  model: meta-llama/llama-3.3-70b-instruct:free  # OpenRouter free models: https://openrouter.ai/models?q=free

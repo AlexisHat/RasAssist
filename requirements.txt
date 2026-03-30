@@ -1,0 +1,19 @@
+# Audio I/O
+pyaudio
+sounddevice
+scipy
+
+# KI-Modelle
+openwakeword
+openai-whisper
+torch
+piper-tts
+
+# LLM
+openai
+
+# Hilfsbibliotheken
+numpy
+huggingface-hub
+pyyaml
+python-dotenv
